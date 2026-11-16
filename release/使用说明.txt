@@ -1,0 +1,33 @@
+七日杀 Mod 管家 v0.1.0
+========================
+
+文件
+----
+七日杀Mod管家.exe                       免安装版，双击运行
+WastelandModManager_0.1.0_x64-setup.exe  NSIS 安装包（可选）
+
+首次使用
+--------
+1. 运行程序。它会自动寻找 Steam 版《7 Days to Die》。
+2. 打开“设置”，确认“管理的 Mods 目录”：
+   - 用户数据目录：%APPDATA%\7DaysToDie\Mods
+   - 游戏目录：<Steam>\steamapps\common\7 Days To Die\Mods
+3. 回到“模组库”，安装 ZIP / 文件夹，或直接把 ZIP 拖进窗口。
+4. 启停、安装、应用配置档后，重启游戏才会生效。
+
+数据位置
+--------
+设置：%APPDATA%\com.wasteland.modmanager\settings.json
+配置档：%APPDATA%\com.wasteland.modmanager\profiles.json
+备份：%APPDATA%\com.wasteland.modmanager\backups\
+
+覆盖和删除默认先备份；可在“备份”页恢复。
+
+注意
+----
+- 本程序未签名。Windows SmartScreen 提示时选择“更多信息 → 仍要运行”。
+- 不修改游戏本体，不绕过 EAC，不包含任何 Mod 下载。
+- 使用 EAC 的多人服务器可能拒绝带 Mod 的客户端；进入前先确认服务器规则。
+- 只支持 ZIP；7z / RAR 请先解压。
+
+更多说明见项目根目录 README.md。

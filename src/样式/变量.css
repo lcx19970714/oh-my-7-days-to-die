@@ -1,0 +1,72 @@
+:root {
+  --bg: #0b0c0d;
+  --bg-rail: #0d0f10;
+  --surface: #121416;
+  --surface-raised: #181b1e;
+  --surface-hover: #1b1e21;
+  --line: rgba(236, 234, 228, 0.085);
+  --line-strong: rgba(236, 234, 228, 0.16);
+  --text: #eceae4;
+  --text-soft: #c8c5bd;
+  --muted: #8f8d86;
+  --faint: #7c7a73;
+  --accent: #e9a15b;
+  --accent-bright: #f3b77e;
+  --accent-soft: rgba(233, 161, 91, 0.11);
+  --accent-ink: #1a1208;
+  --ok: #8fae7d;
+  --ok-soft: rgba(143, 174, 125, 0.12);
+  --warn: #e0b05e;
+  --warn-soft: rgba(224, 176, 94, 0.1);
+  --danger: #d97863;
+  --danger-soft: rgba(217, 120, 99, 0.11);
+  --info: #91a9b3;
+  --info-soft: rgba(145, 169, 179, 0.1);
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.52);
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.34);
+  --font-ui: "Inter Variable", "Microsoft YaHei UI", "PingFang SC",
+    "Noto Sans SC", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", "Cascadia Code", "Consolas",
+    ui-monospace, monospace;
+  --text-xs: 10px;
+  --text-sm: 11px;
+  --text-base: 12.5px;
+  --text-md: 13.5px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 30px;
+  --rail-w: 232px;
+  --titlebar-h: 40px;
+  --radius-s: 5px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+  --ease: cubic-bezier(0.22, 0.8, 0.24, 1);
+}
+
+[data-theme="light"] {
+  --bg: #f3f0e9;
+  --bg-rail: #ede9e1;
+  --surface: #faf8f2;
+  --surface-raised: #ffffff;
+  --surface-hover: #f1ede4;
+  --line: rgba(28, 26, 22, 0.1);
+  --line-strong: rgba(28, 26, 22, 0.2);
+  --text: #1c1a16;
+  --text-soft: #3c3933;
+  --muted: #6a665e;
+  --faint: #736e64;
+  --accent: #a85e1f;
+  --accent-bright: #8f4e17;
+  --accent-soft: rgba(168, 94, 31, 0.09);
+  --accent-ink: #fff8ee;
+  --ok: #4f7340;
+  --ok-soft: rgba(79, 115, 64, 0.1);
+  --warn: #8a6517;
+  --warn-soft: rgba(138, 101, 23, 0.09);
+  --danger: #a94532;
+  --danger-soft: rgba(169, 69, 50, 0.08);
+  --info: #4c6c78;
+  --info-soft: rgba(76, 108, 120, 0.08);
+  --shadow: 0 18px 50px rgba(50, 40, 26, 0.18);
+  --shadow-soft: 0 8px 24px rgba(50, 40, 26, 0.12);
+}
